@@ -1,0 +1,58 @@
+# ▶ Python bytecode / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ▶ Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.ENV/
+
+# ▶ Environment / secrets
+.env
+.env.*
+secrets.json
+
+# ▶ Python distribution / build
+build/
+dist/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+wheels/
+
+# ▶ Docker (opsional, ignore image data)
+docker-compose.override.yml
+*.log
+
+# ▶ Databases
+*.sqlite3
+*.db
+
+# ▶ IDE / editor configs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# ▶ OS generated files
+.DS_Store
+Thumbs.db
+
+# ▶ Python testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.cache/
+
+# ▶ Migrations (kalau kamu handle terpisah)
+migrations/
+!migrations/__init__.py
+
+# ▶ Uvicorn / FastAPI run files
+*.pid
