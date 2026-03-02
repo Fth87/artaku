@@ -1,0 +1,1 @@
+Project for financial management apps
